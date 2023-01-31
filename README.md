@@ -20,12 +20,21 @@ The only Dev dependencies are as follows
 
 Currently everything in the ./src folder will be copied over to the ./dist folder on each command call 'tsc'.
 
-Note: You can install tsc globally on your machine with npm i -g typescript which will allow you consistent capabilities of using the TypeScript compiler, but you can always call 'npx tsc' to.
+Note: You can install tsc globally on your machine with `npm i -g typescript` which will allow you consistent capabilities of using the TypeScript compiler, but you can always call 'npx tsc' to. You can also use the build command if that is something you are more likely to remember.
 
 The only commands you need to type then are either:
 
 1. `tsc`
 2. `npx tsc`
+3. `npm run build`
+
+## Scripts
+
+Nice low weight set of scripts that focus on ease of use. Perfect for hacking away.
+
+1. `npm start` => runs index.js file in the dist/src folder
+2. `npm run build` => generates the dist folder content from your root/src folder
+3. `npm test` => runs vitest which runs any files ending in spec.ts or test.ts
 
 ## Important files
 
