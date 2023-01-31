@@ -2,7 +2,7 @@
 
 Let me quickly introduce you to the project. There's nothing particularly advanced in this repo, so this is mainly aimed for those less confident in setting up their TS environment.
 
-This is a quick and easy template for you to use in order to explore TypeScript in your own environment. I'm using it to explore Object Oriented Programming, but you can use it however you like.
+This is a quick and easy template for you to use in order to explore TypeScript in your own environment. I'm using it to explore Object Oriented Programming, but you can, of course use it however you like.
 
 ## Binaries
 
@@ -41,7 +41,7 @@ Nice low weight set of scripts that focus on ease of use. Perfect for hacking aw
 1. tsconfig.json
 2. vitest.config.ts
 
-I'm no expert here on these files, but it's well worth becoming familliar with the thought and architecture that has gone into the TypeScript ecosystem.
+I'm no expert here on these files, but it's well worth becoming familliar with the thought and architecture that has gone into the TypeScript ecosystem. It's also worth checking out Vitest, which is a blazingly fast test runner/assertion library based on Jest which I highly recommend becoming familiar with.
 
 I know I'm grateful to dig deeper.
 
